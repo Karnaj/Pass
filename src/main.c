@@ -6,7 +6,7 @@ void getpass(char pass[], int len);
 
 void getpass(char pass[], int len)
 {
-  int c;
+	int c;
 	int n = 0;
 	do
 	{
@@ -27,6 +27,6 @@ int main(void)
 	char a[11];
 	printf("Entrez votre mot de passe (seuls les 10 premiers caracteres seront pris en compte) : ");
 	getpass(a, 10);    
-	printf("Nombre = %s\n",a);
+	printf("Le mot de passe est %s\n",a);
 	return 0;
 }
