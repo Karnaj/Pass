@@ -13,8 +13,8 @@ void getpass(char pass[], int len)
 		c = getch();  
 		if(isalnum(c))  /* Si c'est un caractère alphanumérique */
 		{
-		pass[n] = c; /* on l'ajoute au tableau */
-		n++;
+			pass[n] = c; /* on l'ajoute au tableau */
+			n++;
 		}
 	}
 	while(c != 0x0D && n < len);    /* jusqu'à entrée ou longueur maximale */
